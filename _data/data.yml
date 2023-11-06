@@ -1,0 +1,471 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: p4irin
+    tagline: SIP interconnects<br />VoIP- WebRTC- infrastructure<br />Quality assurance<br />Python<br />Linux
+    avatar: profile.jfif  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: p4irin.github.io@gmail.com
+    phone:
+    timezone: Europe/Amsterdam Timezone
+    citizenship:
+    website: p4irin.github.io #do not add http://
+    company:
+    linkedin: p4irin
+    # xing: alandoe
+    github: github.com/p4irin
+    docker: hub.docker.com/u/p4irin
+    pypi: pypi.org/user/p4irin
+    telegram:  # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Dutch
+          level: Native
+
+        - idiom: English
+          level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: Music
+          link:
+
+        - item: Food
+          link:
+
+        - item: Travel
+          link:
+
+        - item: Raspberry pi
+          link:
+
+        - item: IoT
+          link:
+
+        - item: Open source
+          link:
+
+        - item: AI
+
+career-profile:
+    title: Career Profile
+    summary: |
+      For the past decade I have been working for a hosted VoIP shop where I've
+      served in various capacities. SIP trunking, SIP traffic management in general.
+      Implementation and management of the WebRTC infrastructure. Assist in management of SIP
+      and media entities. Quality assurance. Linux engineer. Python developer.
+
+      Drop me an email for my full resume. I'm open to new opportunities.
+education:
+    title: Education
+    info:
+      - degree: Training, courses, workshops, lectures
+        university: In house & vendor
+        time: 2010 - Present
+        details: |
+          - Oracle Communications
+            - Session Monitor
+            - Session Border Controller VNF deployment
+          - AudioCodes
+              - SBCs/Gateways
+              - Voice.AI
+          - Yealink Management Cloud Service
+          - Azure DevOps services
+          - AppNeta: Monitoring network performance from the customers' perspective
+          - acme packet Session Border Controller
+          - Cisco switches, routers
+      - degree: Mitel 3300 IP Communications Platform
+        university: XCent ICT Services/ Mitel
+        time: 2008 - 2009
+        details:
+          Setup, management, SIP trunking
+      - degree: Computer Science
+        university: Vrije Universiteit van Amsterdam
+        time: 1993 - 1994
+        details:
+          Informatica
+      - degree: Computer Science
+        university: Universiteit van Amsterdam
+        time: 1991 - 1992
+        details:
+          Informatica
+experiences:
+    title: Experiences
+    info:
+      - role: SIP interconnects
+        time: 2010 - Present
+        company: A hosted VoIP shop, Almere, the Netherlands
+        details: |
+          - Implement, test for interoperability, maintain, monitor, secure SIP trunks and
+          device access interfaces
+          - Monitor, route, manipulate SIP and media traffic
+          - Automate traffic re-routing, configuration backups,
+          configuration history tracking in GIT
+          - Research, test, plan migration from hardware to VNF SBC deployment
+          - Test, plan firmware upgrades
+          - Research, PoC options for monitoring media quality
+          - Trouble shoot, second line support SIP and media related issues
+
+          Skills:
+          acme packet 3820 Session Border Controller (hardware),
+          acme packet 4500 Session Border Controller (hardware),
+          Oracle Communications Session Border Controller (VNF deployment),
+          Oracle Communications Session Monitor,
+          Oracle Linux,
+          MySQL, PostgreSQL,
+          SIP,
+          Georedundant High Availibility,
+          Load balancing, 
+          VNF deployment,
+          VMware vSphere hypervisor,
+          SIP and media encryption,
+          FreeRADIUS,
+          Docker,
+          OCSBC REST API,
+          Python
+      - role: VoIP, WebRTC -infrastructure
+        time: 2010 - Present
+        company: A hosted VoIP shop, Almere, the Netherlands
+        details: |
+          - Manage SIP and media infrastructure components
+          - Research, PoC, test, plan, deploy, monitor, manage WebRTC infrastructure
+          - Support frontend WebRTC client development
+          - Research, test, PoC Linphone & Flexisip server (Belledonne Communications SARL)
+          - Trouble shoot, second line support WebRTC and media related issues
+
+          Skills:
+          Ubuntu,
+          Janus WebRTC gateway,
+          Coturn TURN server,
+          STUN, TURN, ICE,
+          Encryption, Let's Encrypt, CertBot,
+          Load balancing, nginx, Fortigate,
+          Auto Config Server,
+          itop CMDB,
+          Snom, Yealink,
+          Misc. SIP clients,
+          Radisys media servers,
+          SIP proxies,
+          Belledonne Communications (Linphone desktop, mobile app, Flexisip server),
+          Gluster
+      - role: Quality assurance engineer
+        time: 2010 - Present
+        company: A hosted VoIP shop, Almere, the Netherlands
+        details: |
+          - Certify SIP hard & soft -phones, firmware for voice platform compatibility
+          - Research, PoC, design, develop, maintain framework and libraries
+          for automated end to end regression tests based on Python and Selenium webdriver
+          - Devise, develop, maintain component and end to end automated performance tests
+          - Support test authors in writing automated tests and performance test modification, execution
+          - Exploratory testing
+          - SIP protocol related testing
+          - Devise, develop utilities required to aid/support in automation and testing in general
+          - Research, execute migration path from Python 2 to Python 3
+
+          Skills:
+          Software Testing Automation Framework (STAF) (https://staf.sourceforge.net/),
+          Ubuntu, Oracle Linux, CentOS,
+          SIP,
+          SIPp, PJSIP, PJSUA,
+          Python 2 & 3 (unittest, Selenium, pysipp, requests, pypiserver, etc.),
+          PHP, BASH,
+          nginx, Apache,
+          Performance, End to end tests,
+          In house SOAP, REST APIs,
+          MSSQL, PostgreSQL, sqlite, MySQL/MariaDB,
+          Docker,
+          VMware vSphere hypervisor, HyperV,
+          SoapUI,
+          WireShark,
+          Appium PoC,
+          Azure, GitHub, GitLab,
+          Visual Studio Code, JetBrains' PyCharm
+      - role: Python developer
+        time: 2010 - Present
+        company: A hosted VoIP shop, Almere, the Netherlands
+        details: |
+          Had a leading role in
+            - Initial design, development of end to end regression tests for the telephony sub-system using
+              - IBM's Software Testing Automation Framework (STAF) (https://staf.sourceforge.net/)
+              - Python 2
+              - SIPp
+              - XML crafted test cases
+            - Migration from STAF to Python only testing, including coverage of the GUI sub-system using
+              - Selenium
+              - Python's standard lib. unittest framework
+              - SIP hardware phones
+            - Writing initial end to end test cases
+            - Support automated test authoring
+            - Migration of automated tests from Python 2 to Python version 3
+            - A REST client for the Oracle Communications Session Border Controller
+              - Primarily used for traffic re-routing
+            - Control SIPp from Python for
+              - SIP protocol related testing
+                - Header checks
+                - Trunk provider interoperability
+                - 
+              - Performance testing
+            - Generating a configuration with database acquired account data for PJSUA client
+              which is used as a stand-in for user agent SIP devices in automated tests
+            - Appium PoC for testing mobile application
+            - Writing several utility scripts
+      - role: Linux engineer
+        time: 2010 - Present
+        company: A hosted VoIP shop, Almere, the Netherlands
+        details: |
+          - Responsible for the majority of linux systems
+          - Leading role in researching, PoC -ing,
+          testing, design and implementation of WebRTC infrastructure components.
+      - role: Agile workflow
+        time: 2015 - Present
+        company: A hosted VoIP shop, Almere, the Netherlands
+        details: |
+          Experience in working in cross-functional teams in an agile setting
+            - Daily stand-up meetings and retrospectives
+            - Sprint planning and backlog management
+            - Adapt and respond to change and shifting priorities
+            - Azure tooling and services
+              - Boards
+              - Repos
+              - Pipelines
+              - DevOps services
+              - 
+            - Member of infrastructure and quality assurance teams
+            - Close collaboration
+            - User stories
+            - Automated testing
+            - Version control
+            - Iterative improvements
+            - Small increments
+            - 
+      - role: VoIP/Network engineer
+        time: 2008 - 2009
+        company: XCent ICT Services, Utrecht, the Netherlands
+        details: |
+          - Rollouts and remote and on-site management of Mitel PBXs
+          - SIP trunking
+          - Troubleshooting and support
+
+          Skills:
+          Mitel 3300 ICP/ SX2000,
+          Mitel Standard Linux,
+          Expect scripting        
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
+
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at.
+#         - name: Git learning
+#           start: 2019
+#           end:
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.github.com
+#           credentialname: Github
+#           details: |
+#             Older certification. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
+
+projects:
+    title: Projects
+    intro: >
+      Private projects I work(ed) on.
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: ICE servers REST API
+        link: "https://github.com/p4irin/ice_servers_rest_api"
+        tagline: "Retrieve ICE servers for use in WebRTC clients"
+      - title: Chrome for testing
+        link: "https://github.com/p4irin/c4t"
+        tagline: "Install a flavor of Chrome, specifically for testing and a matching chromedriver"
+      - title: Python, SIPp and pysipp Dockerized
+        link: "https://github.com/p4irin/pysipp"
+        tagline: "Run/automate SIPp scenarios from Python using pysipp with unittest or pytest. Package/distribute your tests in a Docker image."
+      - title: Telegram notifier
+        link: "https://github.com/p4irin/telegram_notifier_bot"
+        tagline: "Send events occuring in monitoring systems or IoT devices to Telegram user(s) or group(s)"
+      # - title: Velocity
+      #   link: "#hook"
+      #   tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+oss:
+    title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: online-cv
+        link: "https://github.com/p4irin/online-cv"
+        tagline: "A minimal Jekyll Theme to host your resume"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 90%
+
+      - name: GIT
+        level: 80%
+
+      - name: REST
+        level: 80%
+
+      - name: JSON
+        level: 80%
+
+      - name: XML
+        level: 80%
+
+      - name: Javascript
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: PHP
+        level: 60%
+
+      - name: Ruby
+        level: 25%
+
+      - name: C
+        level: 60%
+
+      - name: Bash
+        level: 80%
+
+      - name: Selenium
+        level: 90%
+
+      - name: SQL
+        level: 75%
+
+      - name: Linux
+        level: 80%
+
+      - name: Docker
+        level: 75%
+
+      - name: VMware vSphere hypervisor
+        level: 75%
+
+      - name: SIP
+        level: 75%
+
+      - name: Oracle Communications Session Border Controller
+        level: 90%
+
+      - name: Networking
+        level: 70%
+
+      - name: Packet capturing
+        level: 80%
+
+# recommendations:
+#     title: Recommendations
+#     list:
+#       - person:
+#         contact:
+#         role:
+#         recommendation: |
+#           A real team player.
+#       - person:
+#         contact:
+#         role:
+#         recommendation: |
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
