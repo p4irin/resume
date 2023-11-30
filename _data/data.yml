@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: p4irin
-    tagline: SIP interconnects<br />VoIP- WebRTC- infrastructure<br />Quality assurance<br />Python<br />Linux
+    tagline: Voice Network Engineer<br />VoIP- WebRTC- infrastructure<br />Quality assurance<br />Python<br />Linux
     avatar: profile.jfif  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -66,10 +66,10 @@ sidebar:
         - item: AI
 
 career-profile:
-    title: Career Profile
+    title: Telecoms engineer with a development background and 20+ years experience
     summary: |
       For the past decade I have been working for a hosted VoIP shop where I've
-      served in various capacities. SIP trunking, SIP traffic management in general.
+      served in various capacities. Voice network engineer.
       Implementation and management of the WebRTC infrastructure. Assist in management of SIP
       and media entities. Quality assurance. Linux engineer. Python developer.
 
