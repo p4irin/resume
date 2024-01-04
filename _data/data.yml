@@ -239,23 +239,8 @@ experiences:
         company: A hosted VoIP shop, Almere, the Netherlands
         details: |
           Experience in working in cross-functional teams in an agile setting
-            - Daily stand-up meetings and retrospectives
-            - Sprint planning and backlog management
-            - Adapt and respond to change and shifting priorities
-            - Azure tooling and services
-              - Boards
-              - Repos
-              - Pipelines
-              - DevOps services
-              - 
             - Member of infrastructure and quality assurance teams
-            - Close collaboration
-            - User stories
-            - Automated testing
-            - Version control
-            - Iterative improvements
-            - Small increments
-            - 
+
       - role: VoIP/Network engineer
         time: 2008 - 2009
         company: XCent ICT Services, Utrecht, the Netherlands
@@ -267,7 +252,12 @@ experiences:
           Skills:
           Mitel 3300 ICP/ SX2000,
           Mitel Standard Linux,
-          Expect scripting        
+          Expect scripting
+
+      - role: Drop me an email for my full resume. I'm open to new opportunities
+        time: . - 2008
+        company:
+        details:
 # certifications:
 #       title: Certifications
 #       list:
@@ -454,9 +444,9 @@ skills:
       - name: Packet capturing
         level: 80%
 
-# recommendations:
-#     title: Recommendations
-#     list:
+recommendations:
+    title: Recommendations (on request)
+    list:
 #       - person:
 #         contact:
 #         role:
