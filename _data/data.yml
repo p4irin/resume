@@ -18,7 +18,7 @@ sidebar:
     timezone: Europe/Amsterdam Timezone
     citizenship:
     website: p4irin.github.io #do not add http://
-    company:
+    company: massxess.nl
     linkedin: p4irin
     # xing: alandoe
     github: github.com/p4irin
@@ -112,7 +112,7 @@ experiences:
     info:
       - role: SIP interconnects
         time: 2010 - Present
-        company: A hosted VoIP shop, Almere, the Netherlands
+        company: Massxess B.V., Almere, the Netherlands
         details: |
           - Implement, test for interoperability, maintain, monitor, secure SIP trunks and
           device access interfaces
@@ -143,7 +143,7 @@ experiences:
           Python
       - role: VoIP, WebRTC -infrastructure
         time: 2010 - Present
-        company: A hosted VoIP shop, Almere, the Netherlands
+        company: Massxess B.V., Almere, the Netherlands
         details: |
           - Manage SIP and media infrastructure components
           - Research, PoC, test, plan, deploy, monitor, manage WebRTC infrastructure
@@ -168,7 +168,7 @@ experiences:
           Gluster
       - role: Quality assurance engineer
         time: 2010 - Present
-        company: A hosted VoIP shop, Almere, the Netherlands
+        company: Massxess B.V., Almere, the Netherlands
         details: |
           - Certify SIP hard & soft -phones, firmware for voice platform compatibility
           - Research, PoC, design, develop, maintain framework and libraries
@@ -200,7 +200,7 @@ experiences:
           Visual Studio Code, JetBrains' PyCharm
       - role: Python developer
         time: 2010 - Present
-        company: A hosted VoIP shop, Almere, the Netherlands
+        company: Massxess B.V., Almere, the Netherlands
         details: |
           Had a leading role in
             - Initial design, development of end to end regression tests for the telephony sub-system using
@@ -229,14 +229,14 @@ experiences:
             - Writing several utility scripts
       - role: Linux engineer
         time: 2010 - Present
-        company: A hosted VoIP shop, Almere, the Netherlands
+        company: Massxess B.V., Almere, the Netherlands
         details: |
           - Responsible for the majority of linux systems
           - Leading role in researching, PoC -ing,
           testing, design and implementation of WebRTC infrastructure components.
       - role: Agile workflow
         time: 2015 - Present
-        company: A hosted VoIP shop, Almere, the Netherlands
+        company: Massxess B.V., Almere, the Netherlands
         details: |
           Experience in working in cross-functional teams in an agile setting
             - Member of infrastructure and quality assurance teams
@@ -447,11 +447,11 @@ skills:
 recommendations:
     title: Recommendations (on request)
     list:
-#       - person:
-#         contact:
-#         role:
-#         recommendation: |
-#           A real team player.
+      - person: ...
+        contact: ...
+        role: ...
+        recommendation: |
+          Drop me an email for my full resume. I'm open to new opportunities
 #       - person:
 #         contact:
 #         role:
