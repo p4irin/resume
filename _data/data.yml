@@ -441,8 +441,11 @@ skills:
       - name: Networking
         level: 70%
 
-      - name: Packet capturing
+      - name: Packet capturing & analysis
         level: 80%
+
+      - name: GitHub Actions
+        level: 30%
 
 recommendations:
     title: Recommendations (on request)
